@@ -1,0 +1,314 @@
+* {
+    font-family: "Roboto Mono", monospace;
+    font-style: italic;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.menu {
+    width: 100%;
+    background-color: #282c5f;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 90px;
+}
+
+.topico {
+    text-decoration: none;
+    color: #fff;
+    padding: 40px;
+}
+
+.topico:hover {
+    color: #282c5f;
+    background-color: #fff;
+    transition: 0.7s ease;
+}
+
+.topico h3 {
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    margin: 10% 0 0 0;
+}
+
+.welcome .central h1,
+p {
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.welcome .central p {
+    font-size: 30px;
+    width: 70%;
+    color: #022e52;
+}
+
+.welcome .central h1 {
+    color: #4561ff;
+    font-size: 90px;
+    margin: 0 0 6% 0;
+}
+
+.informacoes-iniciais {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    gap: 22px;
+    flex-direction: column;
+    text-align: center;
+    align-items: end;
+    margin-right: 50px;
+}
+
+.pergunta {
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    color: #9c9494;
+    text-align: center;
+    margin: 10% 0 0 0;
+    height: fit-content;
+    width: 50%;
+    color: #42A5F5;
+}
+
+.pergunta:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.4s ease-out;
+    background-color: #42A5F5;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.resposta-config {
+    color: #4b57be;
+    display: none;
+    text-align: center;
+}
+
+.resposta-config p {
+    font-size: 25px;
+}
+
+.fundo-resposta {
+    background-color: #fcfeff;
+    width: 50%;
+    padding: 30px;
+    border-radius: 2%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+        0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+}
+
+.imagem-profissional {
+    height: 18rem;
+    border-radius: 5%;
+    margin: 0 0 30px;
+}
+
+.objetivo-empresa {
+    margin: 60px;
+    height: 100%;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pergunta-2 {
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #9c9494;
+    text-align: center;
+    margin: 0 0 3% 2%;
+    height: fit-content;
+    width: 50%;
+    color: #4561ff;
+    border-radius: 20px;
+}
+
+.pergunta-2:hover {
+    background-color: #4561ff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    padding: 20px;
+}
+
+.ativo {
+    display: block;
+}
+
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6%;
+}
+
+.redes .social h1,
+p {
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.redes .social {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    gap: 20px;
+}
+
+.redes .social button {
+    border-style: none;
+}
+
+
+.redes .social button:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    padding: 15px;
+}
+
+.redes .social h1 {
+    color: #4561ff;
+    font-size: 60px;
+    text-align: center;
+    margin: 0 0 0 0;
+    margin-right: 60px;
+}
+
+.perguntas-recorrentes .container {
+    color: #4561ff;
+    font-size: 60px;
+    text-align: center;
+    margin: 8% 0 0 0;
+    min-height: 100vh;
+}
+
+.sobre-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    gap: 30px;
+}
+
+.principal ul {
+    list-style-position: inside;
+    font-size: 30px;
+    color: #022e52;
+    margin-bottom: 6%;
+}
+
+.principal h1 {
+    color: #4561ff;
+    font-size: 90px;
+    margin: 0 0 2% 0;
+}
+
+.principal p {
+    font-size: 30px;
+    color: #022e52;
+}
+
+
+.hidden {
+    opacity: 0;
+    filter: blur(18px);
+    transform: translateX(-100%);
+    transition: all ease-out 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all ease-out 1s;
+}
+
+.hidden p {
+    filter: blur(18px);
+    transform: translateX(-100%);
+    transition: all ease-out 2s;
+}
+
+.show p {
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all ease-out 2s;
+}
+
+.redes .hidden .button1 {
+    filter: blur(18px);
+    transform: translateX(-100%);
+    transition: all ease-out 1s;
+}
+
+.redes .show .button1 {
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all ease-out 1s;
+}
+
+.redes .hidden .button2 {
+    filter: blur(18px);
+    transform: translateX(-100%);
+    transition: all ease-out 1.5s;
+}
+
+.redes .show .button2 {
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all ease-out 1.5s;
+}
+
+.redes .hidden .button3 {
+    filter: blur(18px);
+    transform: translateX(-100%);
+    transition: all ease-out 1.6s;
+}
+
+.redes .show .button3 {
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all ease-out 1.6s;
+}
+

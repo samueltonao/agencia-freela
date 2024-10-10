@@ -1,0 +1,154 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    background-color: #f1f1f1;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.perguntas-recorrentes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu {
+    width: 100%;
+    background-color: #282c5f;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 90px;
+}
+
+.topico {
+    text-decoration: none;
+    color: #fff;
+    padding: 40px;
+}
+
+.topico:hover {
+    color: #282c5f;
+    background-color: #fff;
+    transition: 0.7s ease;
+}
+
+.topico h3 {
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.perguntas-recorrentes .container {
+    color: #4561ff;
+    font-size: 40px;
+    text-align: center;
+    margin: 1% 0 0 0;
+}
+
+.acordeon {
+    width: 655px;
+    min-height: 347px;
+    box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin: 20px;
+    position: relative;
+}
+
+.acordeon .ilustracao {
+    position: absolute;
+    left: -90px;
+}
+
+.acordeon .conteudo {
+    width: 90%;
+    padding-left: 225px;
+}
+
+.acordeon .conteudo h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.acordeon .items {
+    list-style-type: none;
+}
+
+.acordeon .items .item {
+    cursor: pointer;
+    background-image: url(../images/Design\ sem\ nome\ \(5\)\ 1seta.png);
+    background-repeat: no-repeat;
+    background-position: top 8px right 0;
+    background-size: 12px;
+    border-bottom: 1px solid #ffd2d2;
+    margin: 10px 0;
+}
+
+.acordeon .items .item:last-child {
+    border-bottom: none;
+}
+
+.acordeon .items .item .pergunta {
+    padding-bottom: 15px;
+    transition: 0.2s ease;
+    font-size: 17px;
+    width: 90%;
+    font-weight: 500;
+}
+
+.item .pergunta:hover {
+    color: #f47c57;
+}
+
+.resposta {
+    display: none;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.acordeon .items .item.ativo h2 {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.acordeon .items .item.ativo .resposta {
+    display: block;
+}
+
+.acordeon .items .item.ativo {
+    background-image: url(../images/seta\ abertasetavermelha.png);
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(18px);
+    transform: translateX(-100%);
+    transition: all ease-out 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all ease-out 1s;
+}
+
+
