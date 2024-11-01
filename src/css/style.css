@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: #ffeeee91;
 }
 
 .menu {
@@ -64,11 +64,11 @@ p {
 .welcome .central p {
     font-size: 30px;
     width: 70%;
-    color: #022e52;
+    color: #4561ff;
 }
 
 .welcome .central h1 {
-    color: #4561ff;
+    color: #000f64;
     font-size: 90px;
     margin: 0 0 6% 0;
 }
@@ -94,14 +94,14 @@ p {
     margin: 10% 0 0 0;
     height: fit-content;
     width: 50%;
-    color: #42A5F5;
+    color: #000f64;
 }
 
 .pergunta:hover {
     color: #ffffff;
     cursor: pointer;
     transition: all 0.4s ease-out;
-    background-color: #42A5F5;
+    background-color: #000f64;
     border-radius: 20px;
     padding: 20px;
 }
@@ -141,28 +141,6 @@ p {
     align-items: center;
 }
 
-.pergunta-2 {
-    font-family: "New Amsterdam", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    color: #9c9494;
-    text-align: center;
-    margin: 0 0 3% 2%;
-    height: fit-content;
-    width: 50%;
-    color: #4561ff;
-    border-radius: 20px;
-}
-
-.pergunta-2:hover {
-    background-color: #4561ff;
-    color: #ffffff;
-    cursor: pointer;
-    transition: all 0.2s ease-out;
-    padding: 20px;
-}
-
 .ativo {
     display: block;
 }
@@ -191,6 +169,7 @@ p {
 
 .redes .social button {
     border-style: none;
+    background-color: #ffffff00;
 }
 
 
@@ -201,7 +180,7 @@ p {
 }
 
 .redes .social h1 {
-    color: #4561ff;
+    color: #000f64;
     font-size: 60px;
     text-align: center;
     margin: 0 0 0 0;
@@ -312,3 +291,15 @@ p {
     transition: all ease-out 1.6s;
 }
 
+
+.registre{
+    padding: 40px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 30px;
+    background-color: #4b57be;
+    color: #fff;
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
