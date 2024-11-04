@@ -303,3 +303,11 @@ p {
     font-style: normal;
     font-weight: 700;
 }
+
+.registre:hover {
+    cursor: pointer;
+    background-color: #7cd5ff;
+    color: #ffffff;
+    transition: all 0.4s ease-out;
+    font-size: 32px;
+}
