@@ -41,7 +41,7 @@ body {
 .welcome {
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     flex-direction: column;
 }
 
@@ -58,7 +58,7 @@ body {
 p {
     font-family: "New Amsterdam", sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .welcome .central p {
@@ -75,7 +75,7 @@ p {
 
 .informacoes-iniciais {
     height: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     gap: 22px;
     flex-direction: column;
