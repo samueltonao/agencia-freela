@@ -10,6 +10,6 @@ html, body {
     scrollbar-width: none;
 }
 
-main {
+.largura{
     max-width:  1366px;
 }
