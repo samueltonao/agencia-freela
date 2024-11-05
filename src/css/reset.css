@@ -9,3 +9,7 @@ html, body {
     max-height: 768px;
     scrollbar-width: none;
 }
+
+main {
+    max-width:  1366px;
+}
