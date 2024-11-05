@@ -248,7 +248,51 @@ p {
     font-size: 32px;
 }
 
+.central-login {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
+.central-login .login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: url(../images/8642919.gif) center no-repeat;
+    background-size: cover;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.central-login .login h1 {
+    font-size: 40px;
+}
+
+
+.central-login .login button {
+    padding: 13px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border-style: none;
+    font-size: 20px;
+    color: #000f64;
+}
+
+.central-login .login input {
+    border-style: hidden;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.central-login .login h1, button {
+font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+}
 
 .hidden {
     opacity: 0;
