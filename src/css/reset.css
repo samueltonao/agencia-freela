@@ -10,6 +10,12 @@ html, body {
     scrollbar-width: none;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .largura{
     max-width:  1366px;
 }
