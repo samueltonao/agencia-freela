@@ -41,7 +41,7 @@ body {
 .welcome {
     display: flex;
     align-items: center;
-    min-height: 90vh;
+    min-height: 100vh;
     flex-direction: column;
 }
 
@@ -75,7 +75,7 @@ p {
 
 .informacoes-iniciais {
     height: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     gap: 22px;
     flex-direction: column;
