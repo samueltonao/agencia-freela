@@ -228,6 +228,27 @@ p {
     color: #022e52;
 }
 
+.registre{
+    padding: 40px;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 30px;
+    background-color: #4b57be;
+    color: #fff;
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.registre:hover {
+    cursor: pointer;
+    background-color: #7cd5ff;
+    color: #ffffff;
+    transition: all 0.4s ease-out;
+    font-size: 32px;
+}
+
+
 
 .hidden {
     opacity: 0;
@@ -292,22 +313,3 @@ p {
 }
 
 
-.registre{
-    padding: 40px;
-    border-radius: 30px;
-    border-style: none;
-    font-size: 30px;
-    background-color: #4b57be;
-    color: #fff;
-    font-family: "New Amsterdam", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-}
-
-.registre:hover {
-    cursor: pointer;
-    background-color: #7cd5ff;
-    color: #ffffff;
-    transition: all 0.4s ease-out;
-    font-size: 32px;
-}
