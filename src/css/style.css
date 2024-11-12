@@ -232,7 +232,7 @@ p {
     color: #022e52;
 }
 
-.registre{
+.registre {
     padding: 40px;
     border-radius: 30px;
     border-style: none;
@@ -300,11 +300,68 @@ p {
     border-radius: 7px;
 }
 
-.central-login .login h1, button {
-font-family: "New Amsterdam", sans-serif;
+.central-login .login h1,
+button {
+    font-family: "New Amsterdam", sans-serif;
     font-style: normal;
     font-weight: 700;
     color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.container h3 {
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #1e00ff;
+}
+
+
+.container .perfil, .vagas, .chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px 0 0;
+}
+
+.container .avatar img {
+    width: 75px;
+    height: 75px;
+}
+
+.container .perfil {
+    margin-top: 7%;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+}
+
+.vagas-disponiveis {
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.vagas-disponiveis section{
+    height: 12%px;
+    width: 300px;
+    padding: 23px;
+    background-color: #000f64;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.vagas-disponiveis section img {
+    width: 200px;
 }
 
 .hidden {
@@ -368,5 +425,3 @@ font-family: "New Amsterdam", sans-serif;
     transform: translateX(0);
     transition: all ease-out 1.6s;
 }
-
-
