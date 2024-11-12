@@ -326,7 +326,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 20px 0 0;
+    margin: 0 20px 0 0;
 }
 
 .container .avatar img {
@@ -334,9 +334,7 @@ button {
     height: 75px;
 }
 
-.container .perfil {
-    margin-top: 7%;
-}
+
 
 .pesquisa {
     display: flex;
@@ -348,20 +346,52 @@ button {
     gap: 50px;
     position: absolute;
     top: 20%;
-    left: 20%;
+    left: 37%;
+    text-align: center;
+    font-size: 15px;
 }
 
 .vagas-disponiveis section{
-    height: 12%px;
+    height: 5%;
     width: 300px;
     padding: 23px;
-    background-color: #000f64;
+    background-color: #e3e8ff;
     border-radius: 15px;
     text-align: center;
 }
 
 .vagas-disponiveis section img {
     width: 200px;
+    border-radius: 15px;
+}
+
+#section-resultado {
+    display: none;
+}
+
+.pesquisa input{
+    font-size: 25px;
+    border-radius: 15px;
+    border: 1px solid #022e52;
+    padding-right: 6px;
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+}
+
+.pesquisa button {
+    background-color: transparent;
+    border-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa button img{
+    width: 20px;
+}
+
+.pesquisa button img:hover {
+    width: 25px;
+    transition: all 0.2s ease-in-out;
 }
 
 .hidden {
