@@ -329,11 +329,12 @@ button {
 }
 
 
-.container .vagas, .chat {
+.container .vagas,
+.chat {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 20px 0 0 ;
+    margin: 20px 20px 0 0;
     padding: 35px;
     background-color: #308aff;
     border-radius: 15px;
@@ -349,7 +350,7 @@ button {
     cursor: pointer;
     background-color: #000b69;
     transition: 0.4s ease-in-out;
-} 
+}
 
 .container .avatar img {
     width: 75px;
@@ -361,7 +362,7 @@ button {
 }
 
 .pesquisa .avatar {
-    margin-left: 270%;
+    margin-left: 200px;
 }
 
 .pesquisa {
@@ -406,9 +407,9 @@ button {
     font-weight: 300;
     color: rgb(132, 130, 238);
     font-size: 15px;
-} 
+}
 
-.vagas-disponiveis .preco{
+.vagas-disponiveis .preco {
     color: #00ff4c;
     background-color: rgb(255, 255, 255);
 }
@@ -429,7 +430,7 @@ button {
     transition: 0.4s ease-in-out;
 }
 
-.vagas-disponiveis section{
+.vagas-disponiveis section {
     height: 2%;
     width: 500px;
     padding: 23px;
@@ -449,7 +450,7 @@ button {
     display: none;
 }
 
-.pesquisa input{
+.pesquisa input {
     font-size: 20px;
     width: 50%;
     border-radius: 15px;
@@ -467,7 +468,7 @@ button {
     margin-left: 12px;
 }
 
-.pesquisa button img{
+.pesquisa button img {
     width: 30px;
 }
 
@@ -479,6 +480,56 @@ button {
 
 .pesquisa .logo {
     margin-right: 15%;
+}
+
+.perfil-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-perfil {
+    width: 40%;
+    background-color: #e0e0e0;
+    text-align: center;
+    border: 2px solid #c5caff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nome-user {
+    border: 2px solid #c5caff;
+    background-color: #f5fffd;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.sobre-user {
+    border: 2px solid #c5caff;
+    background-color: #f5fffd;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.container-perfil .nome-user h2 {
+    font-family: "New Amsterdam", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.avatar-perfil {
+    border: 2px solid #c5caff;
+    padding: 20px;
+    background-color: #f5fffd;
+    border-radius: 15px;
+    box-shadow: rgba(95, 95, 134, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .hidden {
